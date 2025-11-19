@@ -1,18 +1,50 @@
 # 🏠 Homelab Documentation
 
-Welcome to my Homelab Documentation repository — a collection of structured notes, lab configurations, networking guides, and IT practice materials used to build real-world skills in system administration, networking, virtualization, and ServiceNow development.
-
-This repo showcases my hands-on learning in:
-- Windows Server & Active Directory
-- Networking (DNS, DHCP, VLANs)
-- VirtualBox & VM management
-- Linux systems
-- PowerShell scripting
-- ServiceNow development & workflows
+A fully organized, professional collection of my IT homelab notes, configurations, virtual environments, Active Directory labs, networking practice, and ServiceNow development workflows.  
+This repository demonstrates real-world hands-on experience in system administration, virtualization, automation, and infrastructure design.
 
 ---
 
-## 🔧 Repository Structure
+## 📛 Badges
+
+![GitHub last commit](https://img.shields.io/github/last-commit/s1ayersboxer/homelab-docs?color=blue)
+![Repo Size](https://img.shields.io/github/repo-size/s1ayersboxer/homelab-docs)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-Homelab-blue)
+![Tech Stack](https://img.shields.io/badge/TechStack-Windows%20Server%20%7C%20VirtualBox%20%7C%20PowerShell%20%7C%20Linux%20%7C%20ServiceNow-red)
+
+---
+
+# 📚 Table of Contents
+
+- [🏠 Overview](#-overview)  
+- [🗂️ Repository Structure](#️-repository-structure)  
+- [📘 Folder Descriptions](#-folder-descriptions)  
+- [🔧 Featured Labs](#-featured-labs)  
+- [🚀 Skills Practiced](#-skills-practiced)  
+- [🧪 Future Additions](#-future-additions)  
+- [🙋‍♂️ Author](#-author)  
+
+---
+
+# 🏠 Overview
+
+This repository is designed to document my homelab journey as I transition into IT and ServiceNow roles.  
+It includes:
+
+- Step-by-step lab configurations  
+- Networking setups and diagrams  
+- Virtual machine templates  
+- PowerShell scripting practice  
+- Windows Server + Active Directory labs  
+- Linux fundamentals  
+- ServiceNow development notes  
+
+This repo grows as I build new labs and sharpen my skills.
+
+---
+
+# 🗂️ Repository Structure
 
 homelab-docs/
 │
@@ -20,113 +52,132 @@ homelab-docs/
 ├── virtualbox/ # Virtual machine & virtualization notes
 ├── networking/ # VLANs, subnetting, network maps
 ├── powershell/ # Automation & scripting practice
-├── linux/ # Linux server setup & command notes
-└── servicenow/ # Update sets, scoped apps, flows, etc.
+├── linux/ # Linux server setup, commands, tools
+└── servicenow/ # Update sets, scoped apps, flows, dev notes
 
 
 ---
 
-## 📘 Folder Overviews
+# 📘 Folder Descriptions
 
 ### 🟦 **windows-ad/**
-Active Directory and Windows Server setups including:
-- AD DS installation  
-- Domain creation  
-- OU structure and GPO design  
-- DNS + DHCP configuration  
-- Domain join troubleshooting  
+Active Directory + Windows Server labs involving:
+- Domain controller configuration  
+- DNS & DHCP setup  
+- OU strategy & GPO design  
+- Domain joins + troubleshooting  
 
 ---
 
 ### 🟧 **virtualbox/**
-Virtualization setup and VM lifecycle management:
+Documentation for:
 - VM templates  
-- Networking modes (NAT, Bridged, Host-Only)  
-- Snapshots and backups  
-- Windows Server installation checklist  
+- Snapshots  
+- Virtual networking (NAT, Host-Only, Internal)  
+- Windows Server installation flow  
 
 ---
 
 ### 🟩 **networking/**
-Networking fundamentals and hands-on labs:
-- VLAN setup and testing  
-- Home network topology  
+Networking skills including:
+- VLAN setup  
 - Subnetting practice  
-- pfSense firewall + routing notes  
+- Network topology mapping  
+- pfSense firewall routing & segmentation  
 
 ---
 
 ### 🟪 **powershell/**
-Automation examples and scripting practice:
-- AD user management scripts  
-- System info collection  
-- Useful command snippets  
-- Ideas for future tools  
+Automation practice:
+- User creation  
+- Bulk operations  
+- System reporting  
+- Script templates and ideas  
 
 ---
 
 ### 🟫 **linux/**
-Linux server basics and homelab tasks:
+Linux fundamentals:
 - Ubuntu Server setup  
-- Common Linux commands  
-- Samba file share  
-- Package management and tools  
+- Directory structure  
+- Package management  
+- Samba shares  
+- Linux CLI reference  
 
 ---
 
 ### 🟧 **servicenow/**
-ServiceNow development notes:
+ServiceNow development:
 - Update set workflow  
-- Scoped app with Git  
-- Flow Designer examples  
-- Script Includes documentation  
+- Scoped app Git integration  
+- Script Includes & Flow Designer examples  
+- Dev best practices  
 
 ---
 
-## 🚀 Goals of This Repository
+# 🔧 Featured Labs
 
-- Build a consistent habit of documenting IT work  
-- Create a portfolio of hands-on skills for IT and ServiceNow roles  
-- Track my growth in scripting, AD/DS, networking, and automation  
-- Provide a reference for future projects  
-- Develop a mindset of structured learning and version control  
+### 🖥️ **Active Directory Lab**
+- Setup Windows Server 2022 DC  
+- Configure AD DS, DNS, DHCP  
+- Join Windows clients  
+- Test authentication & GPOs  
+
+### 🌐 **VLAN Segmentation Lab**
+- Create VLAN 10/20/30/40/99  
+- Configure trunk + access ports  
+- DHCP + firewall rules  
+- Inter-VLAN routing tests  
+
+### 🧪 **VirtualBox Homelab Stack**
+- Multiple VMs connected through Host-Only/IntNet  
+- Optionally paired with pfSense  
+- Snapshots for quick resets  
+
+### 🛠️ **PowerShell Automation**
+- AD user creation  
+- System info gathering  
+- Bulk operations  
+- Scheduled tasks  
+
+### 🧰 **ServiceNow Dev Sandbox**
+- Script Includes  
+- Update Set versioning in Git  
+- Flow Designer automations  
+- Scoped App experiments  
 
 ---
 
-## 🧪 Upcoming Additions
+# 🚀 Skills Practiced
 
-- PowerShell automation for lab management  
-- More detailed network diagrams  
-- Linux security setup  
-- Advanced VLAN + firewall segmentation  
-- ServiceNow appliance delivery tracker documentation  
-- VirtualBox NAT + pfSense routed lab  
+- **Windows Server (AD, DNS, DHCP)**
+- **Networking (VLANs, subnets, routing)**
+- **Virtualization (VirtualBox)**
+- **PowerShell scripting**
+- **Linux administration**
+- **Git & GitHub workflows**
+- **ServiceNow development**
 
----
-
-## 🤝 Future Buildouts
-
-This repo is designed to grow over time.  
-Long-term plans include:
-
-- Moving labs into Proxmox  
-- Creating Terraform or Ansible automation (beginner-level)  
-- Full ServiceNow Dev/Integration project  
-- Network monitoring tools (like Zabbix or Grafana)  
+This repo reflects real progress toward becoming a strong IT generalist and ServiceNow admin/developer.
 
 ---
 
-## 🙋‍♂️ Author
+# 🧪 Future Additions
+
+- Proxmox hypervisor migration  
+- Linux server hardening  
+- pfSense firewall multisegmentation  
+- Monitoring lab (Zabbix / Grafana)  
+- Terraform or Ansible introductory automation  
+- More ServiceNow scoped app versions in Git  
+
+---
+
+# 🙋‍♂️ Author
 
 **Greg Luu**  
 Aspiring IT Specialist & ServiceNow Developer  
-GitHub: https://github.com/s1ayersboxer
+GitHub: https://github.com/s1ayersboxer  
+Always learning. Always building.
 
----
 
-## 📌 Notes
-
-This repository is part of my continuous learning journey from help desk → system administration → ServiceNow development.  
-It shows real practice, real notes, real troubleshooting — not copy/paste textbook content.
-
-Always improving. Always learning.
