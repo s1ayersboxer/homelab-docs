@@ -65,7 +65,8 @@ Active Directory + Windows Server labs involving:
 - Domain controller configuration  
 - DNS & DHCP setup  
 - OU strategy & GPO design  
-- Domain joins + troubleshooting  
+- Domain joins + troubleshooting
+- [Lab 01 - Domain Controller Setup](windows-ad/lab-01-domain-controller.md)  
 
 ---
 
